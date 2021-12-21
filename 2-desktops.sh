@@ -39,9 +39,7 @@ echo "INSTALLING DESKTOPS"
 PKGS=(
         'xfce4'                  # XFCE Desktop
         'xfce4-goodies'          # All the extras
-        'plasma'                 # Plasma Desktop
-        'plasma-wayland-session' # Plasma Wayland
-        'kde-applications'       # KDE apps 
+        
 )
 
 for PKG in "${PKGS[@]}"; do
