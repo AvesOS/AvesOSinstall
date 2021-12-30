@@ -33,13 +33,13 @@ echo  "                                =========================================
 
 
 
-echo "INSTALLING DESKTOPS"
+echo "INSTALLING DESKTOPS - XFCE 4 and awesomewm will be installed. We can asure you that awesomewm is not 'bloat', but is used for emergency purposes"
 
 
 PKGS=(
         'xfce4'                  # XFCE Desktop
         'xfce4-goodies'          # All the extras
-        
+        'awesome'                # awesome window manager for emergencies
 )
 
 for PKG in "${PKGS[@]}"; do

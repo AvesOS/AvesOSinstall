@@ -26,7 +26,7 @@ echo  "                                =========================================
 
 
 echo
-echo "Installing network components for Aves..."
+echo "Installing network components for AvesOS..."
 echo
 
 PKGS=(

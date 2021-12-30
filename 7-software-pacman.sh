@@ -30,23 +30,6 @@ echo  "                                =========================================
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 echo
 echo "INSTALLING SOFTWARE"
 echo
@@ -72,8 +55,6 @@ PKGS=(
     'hardinfo'              # Hardware info app
     'htop'                  # Process viewer
     'inxi'                  # System information utility
-    'jq'                    # JSON parsing library
-    'jshon'                 # JSON parsing library
     'neofetch'              # Shows system info when you launch terminal
     'ntp'                   # Network Time Protocol to set time via network.
     'numlockx'              # Turns on numlock in X11
@@ -82,77 +63,49 @@ PKGS=(
     'speedtest-cli'         # Internet speed via terminal
     'terminus-font'         # Font package with some bigger fonts for login terminal
     'tlp'                   # Advanced laptop power management
-    'unrar'                 # RAR compression program
-    'unzip'                 # Zip compression program
     'wget'                  # Remote content retrieval
     'deepin-terminal'       # Terminal emulator
     'zenity'                # Display graphical dialog boxes via shell scripts
     'zip'                   # Zip compression program
-    'zsh'                   # ZSH shell
-    'zsh-completions'       # Tab completion for ZSH
+    'fish'                  # Fish shell
 
     # DISK UTILITIES ------------------------------------------------------
 
     'autofs'                # Auto-mounter
     'exfat-utils'           # Mount exFat drives
     'gparted'               # Disk utility
-    'ntfs-3g'               # Open source implementation of NTFS file system
     'parted'                # Disk utility
 
     # GENERAL UTILITIES ---------------------------------------------------
 
-    'veracrypt'             # Disc encryption utility
-    'variety'               # Wallpaper changer
+    'feh'                   # Wallpaper changer
 
     # DEVELOPMENT ---------------------------------------------------------
 
     'apache'                # Apache web server
     'clang'                 # C Lang compiler
     'cmake'                 # Cross-platform open-source make system
-    'electron'              # Cross-platform development using Javascript
     'git'                   # Version control system
     'gcc'                   # C/C++ compiler
     'glibc'                 # C libraries
-    'mariadb'               # Drop-in replacement for MySQL
-    'meld'                  # File/directory comparison
-    'nodejs'                # Javascript runtime environment
-    'npm'                   # Node package manager
-    'php'                   # Web application scripting language
-    'php-apache'            # Apache PHP driver
-    'postfix'               # SMTP mail server
     'python'                # Scripting language
-    'qtcreator'             # C++ cross platform IDE
-    'qt5-examples'          # Project demos for Qt
-    'yarn'                  # Dependency management (Hyper needs this)
 
     # WEB TOOLS -----------------------------------------------------------
 
-    'ungoogled-chromium'    # Web browser
-    'filezilla'             # FTP Client
-    'flashplugin'           # Flash
+    'epiphany'    # Web browser
 
-    # COMMUNICATIONS ------------------------------------------------------
+    # COMMUNICATIONS ---------------------------.---------------------------
 
     'irssi'                 # Terminal based IIRC
 
     # MEDIA ---------------------------------------------------------------
 
     'simplescreenrecorder'  # Record your screen
-    'vlc'                   # Video player
-
-    # GRAPHICS AND DESIGN -------------------------------------------------
-
-    'gcolor2'               # Colorpicker
-    'imagemagick'           # Command line image manipulation tool
-    'pngcrush'              # Tools for optimizing PNG images
-    'ristretto'             # Multi image viewer
+    'mpv'                   # Video player
 
     # PRODUCTIVITY --------------------------------------------------------
 
     'galculator'            # Gnome calculator
-    'hunspell'              # Spellcheck libraries
-    'hunspell-en'           # English spellcheck library
-    'libreoffice-fresh'     # Libre office with extra features
     'gedit'                 # Text editor
 
     # VIRTUALIZATION ------------------------------------------------------
